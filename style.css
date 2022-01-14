@@ -51,8 +51,15 @@ a{
 }
 .description{
     width:600px;
+    transition:transform .5s;
 
 }
+.description:hover{
+    transform: scale(1.2);
+    color: tomato;
+}
+
+
 .camera{
     margin-top: 5px;
     height:490px;
