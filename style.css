@@ -59,6 +59,11 @@ a{
     width:440px;
     margin-right:100px;
     border-radius:50px;
+    transition: transform 1s;
+}
+
+.camera:hover{
+    transform: scale(1.17);
 }
 
 .preebook-button
@@ -74,6 +79,9 @@ a{
     text-decoration: none;
     color:white;
     font-size:18px;  
+}
+.preebook-button a:hover{
+    color:#55efc4;
 }
 
 
@@ -135,5 +143,42 @@ hr{
     font-size:17px;
     margin-left: 7px;
 }
+.seemore{
+    display:flex;
+    justify-content:center;
+    margin-left: 300px;
+}
+/* footer section */
+.footer{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: #000229;
+    color: white;
+}
+.footer-social{
+    width:1462px;
+    height:139px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    
+}
+.social{
+    margin-right: 50px;
+}
+.icon{
+    margin-right: 10px;
+}
+.icon a{
+    text-decoration: none;
+    color:white;
+}
+.icon a:hover{
+    color:tomato;
+
+}
+
 
 
