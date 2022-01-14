@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Merriweather:wght@300&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Poppins';
+}
+.navbar{
+    display:flex;
+
+    justify-content: space-between;
+    margin-top:50px;
+}
+.logo a{
+    margin-left: 100px;
+    color: black;
+}
+.menu{
+    
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.menu li a{
+    color: black;
+
+    margin-right: 50px;
+
+}
+a{
+    text-decoration: none;
+}
+.fa-shopping-cart{
+    margin-right: 100px;
+}
+/* influencer section start */
+
+.influencer{
+    display:flex;
+    margin-left: 100px;
+}
+.preebook-info{
+    margin-top: 100px;
+}
+.camera{
+    margin-top: 5px;
+    height:490px;
+    width:440px;
+    margin-right:100px;
+    border-radius:50px;
+
+}
