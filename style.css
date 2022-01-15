@@ -155,41 +155,11 @@ hr{
     justify-content:center;
     margin-left: 300px;
 }
-/* footer section */
-.footer{
-    margin-top: 50px;
-    height: 200px;
-    width: 100%;
-    background-color: #000229;
-    color: white;
-}
-.footer-social{
-    width:1462px;
-    height:139px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    
-}
-.social{
-    margin-right: 50px;
-}
-.icon{
-    margin-right: 10px;
-}
-.icon a{
-    text-decoration: none;
-    color:white;
-}
-.icon a:hover{
-    color:tomato;
 
-}
 
 /* youtube videos section */
 .latest-videos{
-    height:1200px;
+    height:100%;
     margin:0px;
     width:auto;
     margin-left:180px;
@@ -283,7 +253,108 @@ hr{
     padding: 10px;
 }
 
+/* footer section */
+.footer{
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background-color: #000229;
+    color: white;
+}
+.footer-social{
+    width:100%;
+    height:25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-around
+    
+}
+.social{
+    margin-right: 50px;
+}
+.icon{
+    margin-right: 10px;
+}
+.icon a{
+    text-decoration: none;
+    color:white;
+}
+.icon a:hover{
+    color:tomato;
 
+}
+
+/* For responsive website */
+
+/* For mobile devices */
+@media screen and (max-width:480px){
+    .collection-section{
+        width: 50%;
+        margin-left: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .grid-section {
+    display:flex;
+    flex-direction: column;
+   
+    margin-top: 40px;
+    
+    justify-content: center;
+    }
+    .second-section {
+        display: flex;
+        justify-content: center;
+        margin-left: 600px;
+    }
+    .influencer{
+        display:flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: space-between;
+    }
+ .footer{
+     width: 1000px;
+     height: auto;
+     overflow: hidden;
+
+ }
+ .footer-social{
+     
+     position: relative;
+     overflow: hidden;
+     padding: 20px;
+     
+ }
+
+    
+}
+
+
+
+
+/* For tablet devices */
+@media screen and(max-width:1200px){
+
+
+  
+    .footer{
+        margin-top: 50px;
+        height: 200px;
+        width: 100%;
+        background-color:#FF0000;
+        color: white;
+    }
+     
+    
+}
 
 
 
